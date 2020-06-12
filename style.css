@@ -1,0 +1,54 @@
+
+
+body{
+  font-family: 'Mukta', sans-serif;
+  background-color : #F0F0F0;
+}
+canvas{
+  margin : 20px;
+  /*border : 1px solid dimgrey;*/
+  width : 70%;
+  height : 70%;
+  box-shadow: 0px 0px 15px 4px rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+#maindiv{
+  text-align : center;
+}
+#finput{
+  background : rgba(0,0,0,0.15);
+  width:300px;
+  margin : 10px auto;
+  padding: 10px;
+  border-radius: 30px;
+}
+h1{
+  letter-spacing: 0.2em;
+  font-weight : 700;
+}
+.jumbotron hr{
+  width : 700px;
+  background-image: linear-gradient(to right, rgba(0, 0, 0, 0.75), white, rgba(0, 0, 0, 0.75));
+}
+.jumbotron{
+  background-image:url("https://images.unsplash.com/photo-1543857778-c4a1a3e0b2eb?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1906&q=80");
+  background-size : cover;
+  text-align : center; 
+  text-shadow : 1px 4px 3px rgba(0,0,0,0.4),
+          1px 8px 10px rgba(0,0,0,0.2),
+          1px 12px 20px rgba(0,0,0,0.1);
+  color : white;
+}
+.btn{
+  margin-right : 10px;
+  margin-left : 10px;
+  margin-top : 10px;
+  font-size :1.1em;
+}
+#filters{
+  background-image: linear-gradient( to right,#F0F0F0,#b56767,#F0F0F0);
+}
+#filters hr{
+    border: 0;
+    height: 1px;
+    background-image: linear-gradient(to right, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0));
+}
